@@ -1,0 +1,107 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# Machine Learning Models
+# =========================
+
+# Downloaded model weights
+models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+
+# Hugging Face cache
+.cache/
+huggingface/
+.huggingface/
+
+
+# =========================
+# Datasets
+# =========================
+
+data/
+datasets/
+
+
+# =========================
+# Vector Databases
+# =========================
+
+# FAISS indexes
+*.index
+
+# ChromaDB
+chroma_db/
+
+# Other vector stores
+vectorstore/
+
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Logs
+# =========================
+
+logs/
+*.log
+
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# IDE Settings
+# =========================
+
+.vscode/
+.idea/
+
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.swp
